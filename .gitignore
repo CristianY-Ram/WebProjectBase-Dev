@@ -1,0 +1,21 @@
+  
+# Dependencias y builds  
+node_modules/  
+dist/  
+
+# Variables de entorno  
+.env  
+.env.local  
+
+# Logs y caché  
+*.log  
+*.tmp  
+.cache/  
+
+# Configuraciones de IDE/Editores  
+.idea/  
+.vscode/  
+
+# Archivos del sistema  
+.DS_Store  
+
