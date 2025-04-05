@@ -33,3 +33,38 @@ function App() {
 }
 
 export default App
+
+
+
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Layout from './components/Layout';
+import NotFound from './pages/NotFound';
+
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    </Routes>
+  );
+}
+
+
+
+import { RouterProvider } from 'react-router-dom';
+import router from './routes/router';
+import { AuthProvider } from './context/AuthContext';
+import './assets/styles/global.css';
+
+export default function App() {
+  return (
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
+  );
+}
