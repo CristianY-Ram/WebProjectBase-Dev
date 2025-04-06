@@ -61,6 +61,10 @@ ProyectoBase/     `Carpeta Proyecto Raiz`
         - logo512.png     `Logo de Escritorio`
     - src/            `Codigo Fuente Aplicación`
       - assets/         `Recursos Visuales`
+        - styles/
+            - base.css
+            - variables.css
+            - globals.css
       - components/     `Componentes Reutilizables`
         - ui/             `Iu`
           - Button/
@@ -122,10 +126,6 @@ ProyectoBase/     `Carpeta Proyecto Raiz`
       - context/          `Estados entre Componentes`
         - AuthContext       `Estado Global Autentificación`
         - ThemeContext      `Estado Global Tema`
-      - styles/
-        - base.css
-        - variables.css
-        - globals.css
       - hooks/          `Logica Complejas`
         - useAuth.json  `Logica Autentificación`
         - useFetch.js   `Logica Obtención Datos`
