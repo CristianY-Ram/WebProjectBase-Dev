@@ -1,17 +1,3 @@
-# Documentación/Manual
-
-- **Nombre del Proyecto**: ProyectoBase.  
-- **Descripción Breve**: Plantilla escalable para aplicaciones web modernas, con frontend, backend y base de datos preconfigurados.  
-- **Versión**: v1.0.0.  
-- **Autor**: Cristian Ramírez.
-
-
-## **Introducción**  
-- **Propósito**:  
-  > Esta plantilla sirve como punto de partida para proyectos web full-stack. Incluye una estructura organizada, herramientas esenciales y documentación para acelerar el desarrollo.  
-
-- **Público Objetivo**:  
-  > Desarrolladores principiantes o avanzados que buscan una base sólida para sus aplicaciones.
 
 - **Características**:  
   - Frontend con React y PWA.  
