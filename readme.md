@@ -24,7 +24,6 @@ No es necesario que sepas programar para usar esta Plantilla, Gracias a la [**Gu
 - ✅ Crear Tu primera Aplicación Web Personalizada.
 
 En la sección [**Plantilla**](/docs/template) puedes aprender todo sobre esta plantilla y escalarla para tus propios proyectos. Entenderás:
-, como los Componentes, Scripts útiles, Posibles base de datos, realizar conexiones con el servidor y escalar tu propio proyecto. 
 - ✅ Funcionamiento de cada archivo.
 - ✅ Configuración de las tecnologías utilizadas.
 - ✅ Cómo interactúan las capas de esta plantilla.
@@ -70,6 +69,10 @@ Puede ver la estructura completa examinando el repositorio o viendo:
 ***[Configuración →](/docs/configuracion/git.md)***
 
 
-## 📬 Contribuciones
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+## 📬 Contribuciones
+- **Nombre del Proyecto**: "ProyectoBase".  
+- **Versión**: v1.0.0.  
+- **Autor**: Cristian Ramírez.  
+- [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+

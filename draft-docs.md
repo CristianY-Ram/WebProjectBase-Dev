@@ -197,8 +197,11 @@ ProyectoBase/     `Carpeta Proyecto Raiz`
     - app.js           `Aplicación de Servidor`
     - packege.json
     - README.md        `Descripción y Intrucciones del Servidor`
+  - database/
+  - docs/
   - packege.json
-  - README.md
+  - readme.md
+  - structure.md
   - TASK.md
   - .gitignore
 
