@@ -21,7 +21,7 @@
 │  │  │  │  ├─ 🗂️ Modal/             # 🔳 Ventanas Emergentes
 │  │  │  │  ├─ 🗂️ Dropdown/          # ▾ Menus desplegables
 │  │  │  │  ├─ 🗂️ Checkbox/          # ✅ Checkbooxs
-│  │  │  │  ├─ 🗂️ RadioButton/       # ⚪ Gruspo de opciones
+│  │  │  │  ├─ 🗂️ RadioButton/       # ⚪ Grupos de opciones
 │  │  │  │  ├─ 🗂️ DatePicker/        # 🗓️ Selectores de fechas
 │  │  │  │  ├─ 🗂️ ToggleSwitch/      # 🔄 Alternador on/off
 │  │  │  │  ├─ 🗂️ Tooltip/           # ℹ️ Infos contextuales
@@ -55,6 +55,9 @@
 │  │  │     └─ 🗂️ Captcha/           # 🤖 reCAPTCHA v2/v3
 │  │  ├─ 📁 assets/                  # 🖌️ Imágenes/Fuentes/SVG
 │  │  │  ├─ 📁 fonts/                # 🔤 Fuentes personalizadas
+│  │  │  │  ├─ ✒️ Font-Regular.woff2 # 🔡 Fuente Regular (Formato.woff2)
+│  │  │  │  └─ ✒️ Font-Bold.woff2    # 🔠 Fuente Bold (Formato.woff2)
+│  │  │  ├─ 📁 media/                # 📹 Multimedias optimizados
 │  │  │  ├─ 📁 icons/                # ⚡ Iconos en SVG
 │  │  │  └─ 📁 images/               # 🖼️ Imágenes optimizadas
 │  │  ├─ 🗂️ pages/                   # 🏠 Vistas completas
