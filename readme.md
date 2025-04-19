@@ -1,4 +1,9 @@
 # ProyectoBase
+(incluir los cuatro principios)
+Template: Estructura
+Base: Herramientas
+Scalable: autosuperamiento
+Demo: demostración
 
 👋 ¡Hola!, Me llamo Cristian y el día de hoy te quiero presentar una Plantilla escalable para aplicaciones web modernas, con frontend, backend y base de datos preconfigurados. 
 Esta plantilla sirve como punto de partida para proyectos web full-stack; Incluye una estructura organizada, herramientas esenciales y documentación para acelerar el desarrollo.
