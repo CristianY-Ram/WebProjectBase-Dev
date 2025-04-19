@@ -8,13 +8,23 @@ import MainLayout from '../layouts/MainLayout';
 const AppRoute = () => {
   const router = createBrowserRouter([
     {
-      element:  <MainLayout />,
-      children:[
-        { path: '/',  element: <LandingPage />  },
-        { path: '/dashboard', element: <PrivateRoute element={<DashboardPage />} />  },
+      element: <MainLayout />,
+      children: [
+        { 
+          path: '/',  
+          element: <LandingPage />,
+          handle: { title: 'Mi Sitio Web' } // Metadata para el layout
+        },
+        { 
+          path: '/dashboard',
+          element: <PrivateRoute element={<DashboardPage />} />,
+          handle: { title: 'Bienvenido' }
+        },
       ],
     },
-    { path: '*', element: <NotFoundPage />,
+    { 
+      path: '*', 
+      element: <NotFoundPage />,
     },
   ]);
 

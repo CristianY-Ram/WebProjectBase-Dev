@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* En el archivo de estilos de NotFoundPage o global.css */
+.errorContainer {
+  text-align: center;
+  padding: 2rem;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeLink {
+  color: #3182ce;
+  text-decoration: none;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #3182ce;
+  border-radius: 4px;
+}
+
+.homeLink:hover {
+  background-color: #3182ce;
+  color: white;
+}

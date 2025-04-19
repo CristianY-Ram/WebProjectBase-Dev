@@ -1,15 +1,17 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, useMatches } from "react-router-dom";
 import styles from "./MainLayout.module.css";
 import logo from "../../assets/logo.png";
 
 const MainLayout = () => {
+  const matches = useMatches();
+  const currentPageTitle = matches.find(m => m.handle)?.handle?.title || 'Título por defecto';
+  
   return (
     <div className={styles.layout}>
-      
       <header className={styles.header}>
         <div className={styles.logoContainer}>
           <img src={logo} alt="Logo" className={styles.logo} />
-          <h1 className={styles.title}>Mi Sitio Web</h1>
+          <h1 className={styles.title}>{currentPageTitle}</h1>
         </div>
         
         <nav className={styles.nav}>
@@ -32,7 +34,6 @@ const MainLayout = () => {
           <Link to="/terms" className={styles.footerLink}>Términos</Link>
         </div>
       </footer>
-      
     </div>
   );
 };
