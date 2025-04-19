@@ -3,7 +3,7 @@ import LandingPage from '../pages/LandingPage';
 import DashboardPage from '../pages/DashboardPage';
 import NotFoundPage from '../pages/NotFoundPage';
 import PrivateRoute from './PrivateRoute';
-import MainLayout from '../layouts/MainLayout';
+import MainLayout from '../layouts/MainLayout/MainLayout';
 
 const AppRoute = () => {
   const router = createBrowserRouter([
